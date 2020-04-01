@@ -13,3 +13,14 @@ using npm instead of yarn see [this](https://gist.github.com/jonlabelle/c082700c
 add package.json before running any npm command and add '{}' as content of that file.
 
 yarn add [package] -D is equal to npm install --save-dev [package]
+
+## Reuse code 
+
+Context: To practice and review the reuse module. I will write a five state element that allows switching between states and highlights the currently selected state
+
+This will be implemented with React:
+
+- without a specific code reuse pattern used
+- using a HOC
+- using render props
+
