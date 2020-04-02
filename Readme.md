@@ -14,13 +14,14 @@ add package.json before running any npm command and add '{}' as content of that 
 
 yarn add [package] -D is equal to npm install --save-dev [package]
 
+add loader for css to webpack config and install via npm
+
 ## Reuse code 
 
-Context: To practice and review the reuse module. I will write a five state element that allows switching between states and highlights the currently selected state
+### Example showcase
 
-This will be implemented with React:
+In the class we did a Toggle for showcasing the different patterns for code reuse. For practice I want to practice code reuse 
 
-- without a specific code reuse pattern used
-- using a HOC
+- in a naive way
+- using HOC
 - using render props
-
